@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 :root {
-    --cor0: #264653;
-    --cor1: #2a9d8f;
-    --cor2: #e9c46a;
-    --cor3: #f4a261;
-    --cor4: #e76f51;
+    --cor1: #EBDC75;
+    --cor2: #EB9F1C;
+    --cor3: #3C5AEB;
+    --cor4: #3B4470;
+    --cor5: #706E5D;
 
     --fonte-padrao: Arial, verdana, helvetica, sans-serif;
     --fonte-code: 'Source Code Pro', monospace;
@@ -21,12 +21,13 @@
 }
 
 body {
-    background-color: var(--cor1);
+
+    background-color: var(--cor5);
     padding: 0px 20px;
 }
 
 sup {
-    color: var(--cor3);
+    color: var(--cor1);
 }
 
 h1,
@@ -37,9 +38,14 @@ h2 {
     padding: 0px 0px 10px 0px;
 }
 
+header {
+    padding-top: 13px;
+}
+
 fieldset {
-    background-color: var(--cor2);
-    border: 2px solid white;
+    color: white;
+    background-color: var(--cor4);
+    border: 2px solid #c0c0c0;
     border-radius: 10px;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
@@ -50,14 +56,34 @@ fieldset {
 }
 
 legend {
+    color: black;
     font: italic bold 1em/24px var(--fonte-titulos);
-    background: white;
+    background: #c0c0c0;
     padding: 0px 6px;
     border-radius: 10px;
 }
 
 pre {
     text-wrap: balance;
+}
+
+footer {
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 10px 0px;
+}
+
+a {
+    color: #ffffff84;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 /*
