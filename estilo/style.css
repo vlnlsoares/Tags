@@ -12,17 +12,36 @@
     --fonte-android: 'android', cursive;
 }
 
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
+
+    background-color: var(--cor1);
+
+}
+
+pre {
+    text-wrap: balance;
+}
+
+/* width: 100vw;
     background-color: var(--cor1);
     margin: 0px;
     font-family: var(--fonte-padrao);
-    padding: 15px;
-}
-
+    padding: 0px;*/
 h1 {
     font-family: var(--fonte-android);
     text-align: center;
     padding: 15px;
+}
+
+fildset>legend {
+    width: 100vw;
+
 }
 
 h2 {
@@ -40,11 +59,13 @@ p {
     color: var(--cor2);
 }
 
+/*
 #fil1 {
     background-color: var(--cor4);
     border: 2px solid white;
     border-radius: 10px;
 }
+*/
 
 b {
     background-color: var(--cor3);
