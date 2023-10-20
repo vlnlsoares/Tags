@@ -11,7 +11,7 @@
 
     --fonte-padrao: Arial, verdana, helvetica, sans-serif;
     --fonte-code: 'Source Code Pro', monospace;
-    --fonte-titulos:  Georgia, serif;
+    --fonte-titulos: Georgia, serif;
 }
 
 * {
@@ -22,33 +22,51 @@
 
 body {
     background-color: var(--cor1);
-    padding: 0px 15px 0px 15px;
+    padding: 0px 20px;
 }
 
 sup {
-    color: var(--cor3)
+    color: var(--cor3);
 }
 
 h1,
 h2 {
     color: var(--cor2);
-    font: normal small-caps bold 3em/30px var(--fonte-titulos);
+    font: normal small-caps bold 3em var(--fonte-titulos);
     text-align: center;
-    padding: 20px;
-    box-sizing: ;
-    border: 5px solid red;
+    padding: 0px 0px 10px 0px;
 }
 
 fieldset {
     background-color: var(--cor2);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
 }
 
-fieldset>p {
-    box-sizing: none;
-    margin: 10px;
-    border: 10px solid green;
-    padding: 10px;
-    background-color: var(--cor4);
+legend {
+    font: italic bold 1em/24px var(--fonte-titulos);
+    background: white;
+    padding: 0px 6px;
+    border-radius: 10px;
 }
 
-[ [ [ <font-style>|| <font-variant>|| <font-weight>]? <font-size>[ / <line-height>]?
+pre {
+    text-wrap: balance;
+}
+
+/*
+font-style:
+font-variant:
+font-weight:
+font-stretch:
+font-size:
+line-height:
+font-family:
+
+*/
