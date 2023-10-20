@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #264653;
+    --cor1: #2a9d8f;
+    --cor2: #e9c46a;
+    --cor3: #f4a261;
+    --cor4: #e76f51;
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'android', cursive;
+}
+
+body {
+    background-color: var(--cor1);
+    margin: 0px;
+    font-family: var(--fonte-padrao);
+    padding: 15px;
+}
+
+h1 {
+    font-family: var(--fonte-android);
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-family: var(--fonte-android);
+}
+
+p {
+    padding: 5px;
+    text-indent: 30px;
+}
+
+.tag {
+    color: var(--cor2);
+}
+
+#fil1 {
+    background-color: var(--cor4);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+b {
+    background-color: var(--cor3);
+}
+
+pre {
+    background-color: var(--cor3);
+    border-radius: 9px;
+}
+
+legend {
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 4px 8px;
+}

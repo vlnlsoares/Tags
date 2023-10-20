@@ -4,102 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags em HTML5</title>
+    <title>TAGs</title>
     <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
-    <style>
-        :root {
-            --cor0: #264653;
-            --cor1: #2a9d8f;
-            --cor2: #e9c46a;
-            --cor3: #f4a261;
-            --cor4: #e76f51;
-
-            --fonte-padrao: Arial, verdana, helvetica, sans-serif;
-            --fonte-destaque: 'Bebas Neue', sans-serif;
-            --fonte-android: 'android', cursive;
-        }
-
-        * {
-            margin: 0px;
-            padding: 0px;
-            font-family: var(--fonte-padrao);
-        }
-
-        html {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        body {
-            padding: 0px;
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-color: var(--cor0);
-        }
-
-        hr {
-            border: 2px solid var(--cor3);
-        }
-
-        h1 {
-            margin: 0px;
-            padding: 15px;
-            color: var(--cor2);
-            font-size: 3em;
-            font-family: var(--fonte-android);
-            text-align: center;
-        }
-
-        .yellow {
-            color: rgb(255, 255, 0);
-        }
-
-        .white {
-            color: white;
-        }
-
-        .red {
-            color: rgb(243, 72, 72);
-        }
-
-        .green {
-            color: rgb(0, 255, 0);
-        }
-
-        .purple {
-            color: rgb(220, 0, 220);
-        }
-
-        .pink {
-            color: pink;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 
 <body>
-    <h1>TAGS</h1>
-    <p style="padding: 10px;" class="white">Tag &lt;hr&gt; para fazer linhas horizontais assim: &darr;</p>
-    <hr>
+    <h1>TAGs de HTML</h1>
+    <fieldset id="fil1">
+        <legend>Documento Padrão de HTML</legend>
+        <pre>
+        <b>
 
-    <h2>Ao decorrer do Curso:</h2>
+        &lt;!DOCTYPE html &gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
 
-    <pre><code><p>Após o Código Básico
-        
-    <b><span class="yellow">&lt;!DOCTYPE html&gt; </span>   
-            
-    <span class="pink">&lt;html lang="en"&gt;</span>
-    
-            <span class="red">&lt;head&gt;</span>
-                    <span class="white">&lt;meta</span> charset="UTF-8"<span class="white">&gt;</span>
-                    <span class="white">&lt;meta</span> name="viewport" content="width=device-width, initial-scale=1.0"<span class="white">&gt;</span>
-                    <span class="purple">&lt;title&gt;</span>Document<span class="purple">&lt;/title&gt;</span>
-            <span class="red">&lt;/head&gt;</span>
+        &lt;/body&gt;
+        &lt;/html&gt;            
+        </b>
+        </pre>
+    </fieldset>
 
-            <span class="green">&lt;body&gt;</span>
-
-            <span class="green">&lt;/body&gt;</span>
-    <span class="pink">&lt;/html&gt;</span></b></p></code></pre>
-
+    <h2>Tags</h2>
+    <p><span class="tag">&lt;h1&gt; ate &lt;h6&gt;</span> = Title(título): com numeração semantica de 1º à 6º título.</p>
+    <p><span class="tag">&lt;p&gt;</span> = Paragraph(parágrafo)</p>
+    <p><span class="tag">&lt;hr&gt;</span> = Horizontal Row(linha horizontal)</p>
+    <p></p>
 
 </body>
 
