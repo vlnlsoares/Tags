@@ -20,9 +20,26 @@
     padding: 0px;
 }
 
+
 .tag {
+    font-family: var(--fonte-code);
+    text-align: center;
     font-weight: bolder;
     color: var(--cor2);
+}
+
+.sig {
+    text-indent: 30px;
+}
+
+.par {
+    font-weight: .9em;
+    color: greenyellow;
+}
+
+abbr {
+    font-weight: ;
+    text-decoration: none;
 }
 
 body {
@@ -38,13 +55,13 @@ sup {
 h1,
 h2 {
     color: var(--cor2);
-    font: normal small-caps bold 3em var(--fonte-titulos);
+    font: normal small-caps bold 2em var(--fonte-titulos);
     text-align: center;
     padding: 0px 0px 10px 0px;
 }
 
 h2 {
-    text-indent: 40px;
+    text-indent: 10%;
     text-align: start;
     box-sizing: border-box;
 }
@@ -54,12 +71,14 @@ header {
 }
 
 fieldset {
+    display: flex;
+
+    max-width: 600px;
     color: white;
     background-color: var(--cor4);
     border: 2px solid #c0c0c0;
     border-radius: 10px;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
+    margin: auto;
     padding-block-start: 0.35em;
     padding-inline-start: 0.75em;
     padding-inline-end: 0.75em;
@@ -92,12 +111,9 @@ thead {
     border: 2px solid black;
     background-color: rgba(0, 0, 0, 0.8);
 }
-td {
-    font-size: .6em;
-}
+
 td,
 th {
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.589);
     border: 2px solid white;
 }
