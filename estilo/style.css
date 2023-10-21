@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+
 
 :root {
     --cor1: #EBDC75;
@@ -9,9 +13,9 @@
     --cor4: #3B4470;
     --cor5: #706E5D;
 
-    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-padrao: 'Times New Roman', Times, serif;
+    --fonte-titulos: 'Open Sans', sans-serif;
     --fonte-code: 'Source Code Pro', monospace;
-    --fonte-titulos: Georgia, serif;
 }
 
 * {
@@ -20,54 +24,48 @@
     padding: 0px;
 }
 
-
-.tag {
-    font-family: var(--fonte-code);
-    text-align: center;
-    font-weight: bolder;
-    color: var(--cor2);
-}
-
-.sig {
-    text-indent: 30px;
-}
-
-.par {
-    font-weight: .9em;
-    color: greenyellow;
-}
-
 abbr {
-    font-weight: ;
     text-decoration: none;
 }
 
 body {
-
     background-color: var(--cor5);
     padding: 0px 20px;
+    text-align: justify;
+}
+
+h1 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulos);
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+    margin: 3px 0px 10px;
 }
 
 sup {
+    font-family: var(--fonte-code);
     color: var(--cor1);
 }
 
-h1,
 h2 {
     color: var(--cor2);
-    font: normal small-caps bold 2em var(--fonte-titulos);
-    text-align: center;
-    padding: 0px 0px 10px 0px;
-}
-
-h2 {
+    font-family: var(--fonte-titulos);
+    font-size: 2em;
     text-indent: 10%;
     text-align: start;
     box-sizing: border-box;
+    margin: 5px 0px 15px;
 }
 
-header {
-    padding-top: 13px;
+h3 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulos);
+    font-weight: bolder;
+    font-size: 1em;
+    font: normal small-caps bold 2em var(--fonte-titulos);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 
 fieldset {
@@ -99,23 +97,64 @@ pre {
 }
 
 table {
-    width: 100%;
-    height: 300px;
     color: white;
     border-collapse: collapse;
+    background-color: rgb(114, 114, 114);
 }
 
 thead {
-    font-size: 1.5em;
-    height: 50px;
-    border: 2px solid black;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.622);
+    background-color: rgb(49, 49, 49);
+    font-weight: bolder;
 }
 
-td,
 th {
-    background-color: rgba(0, 0, 0, 0.589);
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    font-weight: bolder;
+    font-size: 1em;
+    border: 2px solid black;
+    height: 35px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 2px 4px;
+
+}
+
+/*
+
+
+th {
+    font-size: 1em;
+    height: 50px;
+
     border: 2px solid white;
+    padding: 0px 3px;
+}
+td {
+    font-size: 1em;
+   
+
+    border: 2px solid white;
+   
+}
+*/
+.tag {
+    font-family: var(--fonte-code);
+    text-align: center;
+    font-weight: bolder;
+    color: var(--cor2);
+}
+
+.sig {
+    text-indent: 10px;
+}
+
+.par {
+    font-weight: .9em;
+    color: greenyellow;
 }
 
 footer {
@@ -124,7 +163,7 @@ footer {
     color: white;
     text-align: center;
     margin: 15px 0px;
-    padding: 10px 0px;
+    padding: 5px 8px;
 }
 
 a {
