@@ -12,7 +12,7 @@
     --cor3: #3C5AEB;
     --cor4: #3B4470;
     --cor5: #706E5D;
-    --cortag: rgb(168, 28, 161);
+    --cortag: rgb(246, 45, 236);
 
     --fonte-padrao: 'Times New Roman', Times, serif;
     --fonte-titulos: 'Open Sans', sans-serif;
@@ -99,16 +99,18 @@ pre {
 }
 
 table {
-    width: 100%;
     color: white;
     border-collapse: collapse;
     background-color: rgb(114, 114, 114);
+    border: 3px solid red;
 }
 
 thead {
+    font-size: .6em;
+    font-weight: bolder;
     color: rgba(255, 255, 255, 0.622);
     background-color: rgb(49, 49, 49);
-    font-weight: bolder;
+    
 }
 
 th {
@@ -123,7 +125,6 @@ th {
 td {
     border: 2px solid black;
     padding: 2px 4px;
-
 }
 
 /*
