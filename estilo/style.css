@@ -99,6 +99,7 @@ pre {
 }
 
 table {
+    margin: auto;
     color: white;
     border-collapse: collapse;
     background-color: rgb(114, 114, 114);
@@ -109,7 +110,7 @@ thead {
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.622);
     background-color: rgb(49, 49, 49);
-    
+
 }
 
 th {
