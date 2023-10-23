@@ -126,24 +126,15 @@ td {
     padding: 2px 4px;
 }
 
-/*
-
-
-th {
-    font-size: 1em;
-    height: 50px;
-
-    border: 2px solid white;
-    padding: 0px 3px;
+p a {
+    text-decoration: none;
+    color: black;
 }
-td {
-    font-size: 1em;
-   
 
-    border: 2px solid white;
-   
+p a:hover {
+    color: red;
 }
-*/
+
 .tag {
     font-family: var(--fonte-code);
     text-align: center;
@@ -169,15 +160,17 @@ footer {
     padding: 5px 8px;
 }
 
-a {
+footer a {
     color: #ffffff84;
     text-decoration: none;
 }
+
 img {
     width: 1em;
     border-radius: 10px;
 }
-a:hover {
+
+footer a:hover {
     color: white;
     text-decoration: underline;
 }
