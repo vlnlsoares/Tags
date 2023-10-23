@@ -8,10 +8,11 @@
 
 :root {
     --cor1: #EBDC75;
-    --cor2: #EB9F1C;
+    --cor2: #eaa938;
     --cor3: #3C5AEB;
     --cor4: #3B4470;
     --cor5: #706E5D;
+    --cortag: rgb(168, 28, 161);
 
     --fonte-padrao: 'Times New Roman', Times, serif;
     --fonte-titulos: 'Open Sans', sans-serif;
@@ -19,6 +20,7 @@
 }
 
 * {
+    box-sizing: border-box;
     font-family: var(--fonte-padrao);
     margin: 0px;
     padding: 0px;
@@ -97,6 +99,7 @@ pre {
 }
 
 table {
+    width: 100%;
     color: white;
     border-collapse: collapse;
     background-color: rgb(114, 114, 114);
@@ -111,7 +114,7 @@ thead {
 th {
     text-align: center;
     font-family: var(--fonte-titulos);
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1em;
     border: 2px solid black;
     height: 35px;
@@ -145,7 +148,7 @@ td {
     font-family: var(--fonte-code);
     text-align: center;
     font-weight: bolder;
-    color: var(--cor2);
+    color: var(--cortag);
 }
 
 .sig {
