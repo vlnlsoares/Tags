@@ -98,7 +98,11 @@ pre {
 }
 
 main {
+    background: rgba(255, 255, 255, 0.2);
     contain: content;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 table {
