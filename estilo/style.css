@@ -97,6 +97,11 @@ pre {
     text-wrap: balance;
 }
 
+main {
+    contain: content;
+
+}
+
 table {
     margin: auto;
     color: white;
@@ -104,7 +109,7 @@ table {
     background-color: rgb(114, 114, 114);
 }
 
-thead {
+table {word-wrap: break-word;
     font-size: .6em;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.622);
