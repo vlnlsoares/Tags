@@ -99,7 +99,6 @@ pre {
 
 main {
     contain: content;
-
 }
 
 table {
@@ -109,8 +108,8 @@ table {
     background-color: rgb(114, 114, 114);
 }
 
-table {word-wrap: break-word;
-    font-size: .6em;
+thead {
+    font-size: 1em;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.622);
     background-color: rgb(49, 49, 49);
